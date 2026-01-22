@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Products - MAAC Scaffolding</title>
+    <style>
+        body {
+            background-color: #ffffff; /* Whole page white background */
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #3e2723; /* Dark brown */
+            font-size: 42px;
+            font-weight: bold;
+            margin: 30px 0;
+            font-family: "Georgia", serif;
+            letter-spacing: 2px;
+        }
+
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product-card {
+            background-color: #fdf5e6; /* Light cream box inside */
+            border: 2px solid #d2b48c; /* Tan border */
+            border-radius: 8px;
+            width: 250px;
+            padding: 15px;
+            text-align: center;
+            color: #4e342e; /* Dark brown text */
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        /* Stronger hover effect on card */
+        .product-card:hover {
+            transform: translateY(-12px) scale(1.05); /* Lift higher + slight zoom */
+            box-shadow: 0 12px 20px rgba(0,0,0,0.3); /* Stronger shadow */
+        }
+
+        .product-card h2 {
+            font-style: italic; /* Product name italic only */
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .product-card p {
+            font-style: normal; /* Normal text for serial & description */
+            font-weight: normal;
+            color: #3e2723; /* Dark brown for consistency */
+        }
+
+        .product-card img {
+            width: 200px;
+            height: auto;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            transition: transform 0.3s ease; /* Smooth zoom effect */
+        }
+
+        /* Second dynamic effect: image zoom on hover */
+        .product-card img:hover {
+            transform: scale(1.1); /* Zoom in slightly */
+        }
+
+        .back-link {
+            display: block;
+            text-align: center;
+            margin: 20px;
+        }
+
+        .back-link a {
+            background-color: #8b4513; /* Saddle brown */
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .back-link a:hover {
+            background-color: #5d3310; /* Darker brown */
+        }
+    </style>
+</head>
+<body>
+    <h1>Our Products</h1>
+
+    <div class="product-container">
+        <div class="product-card">
+            <img src="images/product1.png" alt="Product 1">
+            <h2>Super Plate with Nut</h2>
+            <p>Serial No: 001</p>
+            <p>Quantity to be ordered in number.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="images/product2.png" alt="Product 2">
+            <h2>Waller Bracket</h2>
+            <p>Serial No: 002</p>
+            <p>Quantity to be ordered in number.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="images/product3.png" alt="Product 3">
+            <h2>Waller Clamp</h2>
+            <p>Serial No: 003</p>
+            <p>Quantity to be ordered in number.</p>
+        </div>
+   
+
+    <div class="product-card">
+        <img src="images/product4.png" alt="Product 1">
+        <h2><ol type="A">
+<li>Forged Wing Nut</li>
+<li>Casting Wing Nut</li></ol></h2>
+        <p>Serial No: 004</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product5.png" alt="Product 2">
+        <h2><ol type="A">
+<li>Anchor Nut (2 legs)</li>
+ <li>Anchor Nut (3 legs)</li></ol></h2>
+        <p>Serial No: 005</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product6.png" alt="Product 3">
+        <h2>Solid Pin 85 mm</h2>
+        <p>Serial No: 006</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product7.png" alt="Product 1">
+        <h2>Solid Pin 50 mm</h2>
+        <p>Serial No: 007</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product8.png" alt="Product 2">
+        <h2>Wedges</h2>
+        <p>Serial No: 008</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product9.png" alt="Product 9">
+        <h2>Tie Rod 16 mm</h2>
+        <p>Serial No: 009</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product10.png" alt="Product 10">
+        <h2>DK Spanner</h2>
+        <p>Serial No: 010</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product11.png" alt="Product 11">
+        <h2>Stop Anchor</h2>
+        <p>Serial No: 011</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product12.png" alt="Product 12">
+        <h2>One side Stopper</h2>
+        <p>Serial No: 012</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product13.png" alt="Product 13">
+        <h2>Spring Lock Pin</h2>
+        <p>Serial No: 013</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product14.png" alt="Product 14">
+        <h2>MS Groove</h2>
+        <p>Serial No: 014</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product15.png" alt="Product 15">
+        <h2>Turn Buckle with Wire Rope & Wall Tie</h2>
+        <p>Serial No: 015</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product16.png" alt="Product 16">
+        <h2>Water Stopper</h2>
+        <p>Serial No: 016</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product17.png" alt="Product 17">
+        <h2>Hollow Panel Puller</h2>
+        <p>Serial No: 017</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product18.png" alt="Product 18">
+        <h2>Solid Panel Puller</h2>
+        <p>Serial No: 018</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product19.png" alt="Product 19">
+        <h2>Waler</h2>
+        <p>Serial No: 019</p>
+        <p>Quantity to be ordered in kg.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product20.png" alt="Product 20">
+        <h2>Flange Claw</h2>
+        <p>Serial No: 020</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product21.png" alt="Product 21">
+        <h2>Spindle</h2>
+        <p>Serial No: 021</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product22.png" alt="Product 22">
+        <h2>Long Nut</h2>
+        <p>Serial No: 022</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product23.png" alt="Product 23">
+        <h2>Beam Clamp</h2>
+        <p>Serial No: 023</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product24.png" alt="Product 24">
+        <h2>Crane Support</h2>
+        <p>Serial No: 024</p>
+        <p>Quantity to be ordered in kg.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product25.png" alt="Product 25">
+        <h2>Crane Support</h2>
+        <p>Serial No: 025</p>
+        <p>Quantity to be ordered in kg.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product26.png" alt="Product 26">
+        <h2>Alignment Crane Support</h2>
+        <p>Serial No: 026</p>
+        <p>Quantity to be ordered in kg.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product27.png" alt="Product 27">
+        <h2>Universal Cone with Cap</h2>
+        <p>Serial No: 027</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product28.png" alt="Product 28">
+        <h2>BKS</h2>
+        <p>Serial No: 028</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product29.png" alt="Product 29">
+        <h2>Wall Tie</h2>
+        <p>Serial No: 029</p>
+        <p>Quantity to be ordered minimum of 1 ton</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product30.png" alt="Product 30">
+        <h2>Anchor Nut 130 mm</h2>
+        <p>Serial No: 030</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product31.png" alt="Product 31">
+        <h2>One Side Sutter Alignment</h2>
+        <p>Serial No: 031</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product32.png" alt="Product 32">
+        <h2>DS</h2>
+        <p>Serial No: 032</p>
+        <p>Quantity to be ordered in kg.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product33.png" alt="Product 33">
+        <h2>Hole Bari</h2>
+        <p>Serial No: 033</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product34.png" alt="Product 34">
+        <h2>VS</h2>
+        <p>Serial No: 034</p>
+        <p>Quantity to be ordered in kg.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product35.png" alt="Product 35">
+        <h2>Rod Pin (various size)</h2>
+        <p>Serial No: 035</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product36.png" alt="Product 36">
+        <h2>Tie Puller</h2>
+        <p>Serial No: 036</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product37.png" alt="Product 37">
+        <h2>PVC Sleeve (93 x 1800 mm)</h2>
+        <p>Serial No: 037</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product38.png" alt="Product 38">
+        <h2>Beam Bar (various size)</h2>
+        <p>Serial No: 038</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product39.png" alt="Product 39">
+        <h2>R Pin</h2>
+        <p>Serial No: 039</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product40.png" alt="Product 40">
+        <h2>Plastic Tubing Roll</h2>
+        <p>Serial No: 040</p>
+        <p>Quantity to be ordered in kg.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product41.png" alt="Product 41">
+        <h2>Safety Pin</h2>
+        <p>Serial No: 041</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product42.png" alt="Product 42">
+        <h2>Kicker Bolt</h2>
+        <p>Serial No: 042</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product43.png" alt="Product 43">
+        <h2>Kicker Nut</h2>
+        <p>Serial No: 043</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product44.png" alt="Product 44">
+        <h2>Splice Plate</h2>
+        <p>Serial No: 044</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product45.png" alt="Product 45">
+        <h2>Spring Lock Pin</h2>
+        <p>Serial No: 045</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product46.png" alt="Product 46">
+        <h2>Forged Coupler (40 x 40)</h2>
+        <p>Serial No: 046</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product47.png" alt="Product 47">
+        <h2>Fixed Coupler<ul>
+<li>40 x 40 mm</li>  
+<li>40 x 50 mm</li></ul></h2>
+        <p>Serial No: 047</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product48.png" alt="Product 48">
+        <h2>Sikanja</h2>
+        <p>Serial No: 048</p>
+        <p>Quantity to be ordered in kg.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product49.png" alt="Product 49">
+        <h2>Hard Sleeve</h2>
+        <p>Serial No: 049</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product50.png" alt="Product 50">
+        <h2>HD Coupler</h2>
+        <p>Serial No: 050</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product51.png" alt="Product 51">
+        <h2>Walk Way Jali (300 x 2400 mm)</h2>
+        <p>Serial No: 051</p>
+        <p>Quantity to be ordered in kg.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product52.png" alt="Product 52">
+        <h2>Hot Rolled Tie Rod (various size)</h2>
+        <p>Serial No: 052</p>
+        <p>Quantity to be ordered in metre.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product53.png" alt="Product 53">
+        <h2>Transformer Box</h2>
+        <p>Serial No: 053</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product54.png" alt="Product 54">
+        <h2>J Hook Tie Rod 500 mm</h2>
+        <p>Serial No: 054</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product55.png" alt="Product 55">
+        <h2>Barricaded Screen</h2>
+        <p>Serial No: 055</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product56.png" alt="Product 56">
+        <h2>G clamp (various size)</h2>
+        <p>Serial No: 056</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product57.png" alt="Product 57">
+        <h2>SP WPB</h2>
+        <p>Serial No: 057</p>
+        <p>Quantity to be ordered in kg.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product58.png" alt="Product 58">
+        <h2>Lifting Carriage</h2>
+        <p>Serial No: 058</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product59.png" alt="Product 59">
+        <h2>Kicker (various size)</h2>
+        <p>Serial No: 059</p>
+        <p>Quantity to be ordered in kg.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product60.png" alt="Product 60">
+        <h2>Drip Mould<ol type="a">
+<li>15 x 21</li>
+<li>20 x 30</li>
+<li>21 x 30</li></ol>
+</h2>
+        <p>Serial No: 060</p>
+        <p>Quantity to be ordered in kg.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product61.png" alt="Product 61">
+        <h2>Key Bolt</h2>
+        <p>Serial No: 061</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product62.png" alt="Product 62">
+        <h2>Lifting Hook</h2>
+        <p>Serial No: 062</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product63.png" alt="Product 63">
+        <h2>OUF</h2>
+        <p>Serial No: 063</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product64.png" alt="Product 64">
+        <h2>Wall Tie Patti E 350 grade (various size)</h2>
+        <p>Serial No: 064</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product65.png" alt="Product 65">
+        <h2>Wall Tie Patti Sacrificial (various size)</h2>
+        <p>Serial No: 065</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product66.png" alt="Product 66">
+        <h2>Alignment Spindle</h2>
+        <p>Serial No: 066</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+
+    <div class="product-card">
+        <img src="images/product67.png" alt="Product 67">
+        <h2>Product Name 67</h2>
+        <p>Serial No: 067</p>
+        <p>Quantity to be ordered in number.</p>
+    </div>
+</div>
+
+
+
+    <div class="back-link">
+        <a href="maac.html">Back to Company Info</a>
+    </div>
+</body>
+</html>
